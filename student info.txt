@@ -1,0 +1,16 @@
+//HTML
+<p id="i"></p>
+
+//JS
+var student = {
+  firstName: "Virendra",
+  lastName : "Shekhawat",
+  class       : 10,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+document.getElementById("i").innerHTML = student.fullName();
+
+//js fiddle link
+https://jsfiddle.net/virendra97/g8em0xa5/15/

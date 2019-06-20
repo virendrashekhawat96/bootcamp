@@ -1,0 +1,16 @@
+//HTML
+<p id="i"></p>
+
+//JS
+si();
+function si()
+{
+var p=8900;
+var r=7;
+var t=2;
+var r=(p*r*t)/100;
+document.getElementById("i").innerHTML=r;
+}
+
+//js fiddle link
+https://jsfiddle.net/virendra97/g8em0xa5/19/
